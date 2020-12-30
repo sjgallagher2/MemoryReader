@@ -1,0 +1,6 @@
+device stm32f401vc
+speed 2000
+connect
+loadbin MemoryReader.bin 0x08000000
+rnh
+exit
